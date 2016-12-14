@@ -12,9 +12,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "EmailAddressAnalyzer", "src\EmailAddressAnalyzer\EmailAddressAnalyzer.xproj", "{F3E4CADD-08ED-49C5-91DD-F2668B8E69AC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6D98157E-9E39-45A4-BE93-367F8CDCDF8E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9033008C-6C2F-4065-8F15-E4111E03BD32}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "EmailAddressAnalyzer.Tests", "EmailAddressAnalyzer.Tests\EmailAddressAnalyzer.Tests.xproj", "{E5FC30B6-FD12-4D84-9036-B38B80D59A94}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "EmailAddressAnalyzer.Tests", "test\EmailAddressAnalyzer.Tests\EmailAddressAnalyzer.Tests.xproj", "{914E43CB-C13C-4C02-B561-EB9AFF0FC920}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,16 +26,16 @@ Global
 		{F3E4CADD-08ED-49C5-91DD-F2668B8E69AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3E4CADD-08ED-49C5-91DD-F2668B8E69AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3E4CADD-08ED-49C5-91DD-F2668B8E69AC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E5FC30B6-FD12-4D84-9036-B38B80D59A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E5FC30B6-FD12-4D84-9036-B38B80D59A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E5FC30B6-FD12-4D84-9036-B38B80D59A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E5FC30B6-FD12-4D84-9036-B38B80D59A94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{914E43CB-C13C-4C02-B561-EB9AFF0FC920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{914E43CB-C13C-4C02-B561-EB9AFF0FC920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{914E43CB-C13C-4C02-B561-EB9AFF0FC920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{914E43CB-C13C-4C02-B561-EB9AFF0FC920}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F3E4CADD-08ED-49C5-91DD-F2668B8E69AC} = {E7F1257D-84F4-44DF-BEC7-70CF52545204}
-		{E5FC30B6-FD12-4D84-9036-B38B80D59A94} = {6D98157E-9E39-45A4-BE93-367F8CDCDF8E}
+		{914E43CB-C13C-4C02-B561-EB9AFF0FC920} = {9033008C-6C2F-4065-8F15-E4111E03BD32}
 	EndGlobalSection
 EndGlobal
